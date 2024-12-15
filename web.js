@@ -7,7 +7,7 @@ let userTag = ''; // Tag for connecting users
 let isVideoActive = false;
 let isPaired = false;
 
-const socket = new WebSocket("wss://your-websocket-server-url"); // Replace with your WebSocket server URL
+const socket = new WebSocket("https://anonymous-chat-vlbb.onrender.com"); // Replace with your WebSocket server URL
 const messageInput = document.getElementById("messageInput");
 const sendMessageBtn = document.getElementById("sendMessageBtn");
 const messagesContainer = document.getElementById("messages");
